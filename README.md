@@ -2,7 +2,7 @@
 
 Centralized repository containing the quantitative, econometric, and software engineering projects developed during the **M.Sc. in Banking and Quantitative Finance**. 
 
-The projects demonstrate the application of advanced mathematics, stochastic calculus, and machine learning to financial modeling, derivative pricing, and risk management.
+The projects demonstrate the application of advanced mathematics, stochastic calculus, and machine learning to financial modelling, derivative pricing, and risk management.
 
 ## 🛠 Tech Stack
 * **Languages:** Python (NumPy, pandas, SciPy, scikit-learn, statsmodels), R.
@@ -15,7 +15,7 @@ The projects demonstrate the application of advanced mathematics, stochastic cal
 ### 1. Numerical Methods & Derivatives Pricing
 * **[Pricing Interest Rate Derivatives](./Numerical%20Methods/Pricing%20IR%20Derivatives)**
   * Developed an industry-standard, object-oriented Python library to price fixed-income instruments and non-linear IR options (Caps/Caplets).
-  * Implemented Euribor yield curve bootstrapping and Normal/Shifted Lognormal volatility surface modeling.
+  * Implemented Euribor yield curve bootstrapping and Normal/Shifted Lognormal volatility surface modelling.
 * **[Exotic Options Pricing](./Numerical%20Methods/Exotic%20Options%20Pricing)**
   * Built a Monte Carlo pricing engine for path-dependent derivatives (Asian, Barrier options).
   * Implemented stochastic processes (Geometric Brownian Motion) and variance reduction techniques (Antithetic Variables, Control Variates).
@@ -39,11 +39,11 @@ The projects demonstrate the application of advanced mathematics, stochastic cal
 * **[Text Classification and NLP](./Machine%20Learning/Text%20Classification)**
   * Built an end-to-end NLP pipeline (TF-IDF, Tokenization) to extract quantitative signals from unstructured text data using high-dimensional classification algorithms (LinearSVC).
 * **[Classification Methods](./Machine%20Learning/Classification%20Methods)**
-  * Engineered and evaluated multiple supervised learning algorithms (Decision Trees, k-NN, Neural Networks) to establish foundational predictive modeling frameworks.
+  * Engineered and evaluated multiple supervised learning algorithms (Decision Trees, k-NN, Neural Networks) to establish foundational predictive modelling frameworks.
 
 ### 4. Econometrics & Time Series Analysis
-* **[Volatility Modeling and GARCH](./Econometrics/Volatility%20Modeling%20and%20GARCH)**
-  * Modeled conditional volatility and asymmetric market shocks (leverage effects) using GARCH, EGARCH, and TGARCH specifications.
+* **[Volatility Modelling and GARCH](./Econometrics/Volatility%20Modeling%20and%20GARCH)**
+  * Modelled conditional volatility and asymmetric market shocks (leverage effects) using GARCH, EGARCH, and TGARCH specifications.
 * **[Time Series and Simulation](./Econometrics/Time%20Series%20and%20Simulation)**
   * Conducted macroeconomic forecasting and cointegration analysis using ARIMA and VECM models. Evaluated statistical properties via Monte Carlo simulations.
 * **[Factor Investing (Fama-French & Carhart)](./Econometrics/Factor%20Investing%20Fama%20Carhart)**
