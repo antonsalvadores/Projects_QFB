@@ -7,7 +7,7 @@ Extract actionable quantitative signals from unstructured text data using Natura
 This project implements a complete NLP pipeline to transform raw text into mathematical vectors for algorithmic prediction:
 * **Text Preprocessing:** Cleaning and standardizing unstructured text data, including tokenization, stop-word removal, and stemming/lemmatization to reduce the dimensionality of the text corpus.
 * **Feature Extraction (Vectorization):** Transformation of text into numerical sparse matrices using techniques such as Term Frequency-Inverse Document Frequency (TF-IDF) and Bag-of-Words (CountVectorizer).
-* **Predictive Modeling:** Application of classification algorithms suited for high-dimensional sparse data (such as Multinomial Naive Bayes, Support Vector Machines, or Logistic Regression) to map text vectors to discrete categories.
+* **Predictive Modelling:** Application of classification algorithms suited for high-dimensional sparse data (such as Multinomial Naive Bayes, Support Vector Machines, or Logistic Regression) to map text vectors to discrete categories.
 * **Model Evaluation:** Validation of the classifier's performance on test data using Accuracy, F1-Score, and confusion matrices to evaluate the precision and recall across different text categories.
 
 ## Tech Stack
