@@ -21,10 +21,14 @@ This project implements advanced quantitative finance frameworks translated into
 
 ## Repository Structure
 The project is built with a highly structured Object-Oriented design:
-* **Execution Scripts (`/main`):** * `main_a.py` & `main_b_c.py`: Entry points executing the pricing workflows and outputting final valuations.
-* **Market Data (`/data`):** * `import_data.py`: Pipeline to ingest raw market inputs. 
+* **Execution Scripts (`/main`):** 
+  * `main_a.py` & `main_b_c.py`: Entry points executing the pricing workflows and outputting final valuations.
+* **Market Data (`/data`):** 
+  * `import_data.py`: Pipeline to ingest raw market inputs. 
   * `Datos_Ejercicio_1.xlsx`: Historical Euribor and volatility datasets.
 * **Financial Basics (`/basics`):** * Modules managing date math: `day_counter.py`, `schedule_generator.py`, and `target_calendar.py`.
-* **Underlying Assets (`/underlyings`):** * Core risk factor models: `interest_rate_curve.py` and `normal_volatility_surface.py`.
-* **Financial Products (`/products`):** * *Interest Rate:* Bond and coupon classes.
+* **Underlying Assets (`/underlyings`):** 
+  * Core risk factor models: `interest_rate_curve.py` and `normal_volatility_surface.py`.
+* **Financial Products (`/products`):** 
+* *Interest Rate:* Bond and coupon classes.
   * *Volatility:* Non-linear derivative classes.
