@@ -52,5 +52,5 @@ The projects demonstrate the application of advanced mathematics, stochastic cal
 
 ### 5. Financial Optimization
 * **[Cash Flow Optimization](./Cash%20Flow%20Optimization)**
-  * Formulated Linear Programming (LP) models using **Python (Gurobi)** to resolve corporate ALM (Asset Liability Management) problems.
+  * Formulated Linear Programming (LP) models using Python (Gurobi) to resolve corporate ALM (Asset Liability Management) problems.
   * Optimized short/long-term borrowing for cash flow management, bond portfolio returns subject to credit constraints, and pension fund liability immunization. Conducted extensive shadow price and reduced cost sensitivity analyses.
