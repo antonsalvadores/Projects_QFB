@@ -5,8 +5,8 @@ Develop a robust, object-oriented quantitative library to price Interest Rate (I
 
 ## Mathematical Methodology
 This project implements advanced quantitative finance frameworks translated into modular, production-ready code:
-* **Yield Curve Construction:** Modeling and interpolating the term structure of interest rates (Euribor curves) for accurate discounting and forward rate projection.
-* **Volatility Surfaces:** Implementation of implied volatility surface modeling, handling Normal and Shifted Lognormal dynamics to accommodate different market environments, including negative interest rates.
+* **Yield Curve Construction:** Modelling and interpolating the term structure of interest rates (Euribor curves) for accurate discounting and forward rate projection.
+* **Volatility Surfaces:** Implementation of implied volatility surface modelling, handling Normal and Shifted Lognormal dynamics to accommodate different market environments, including negative interest rates.
 * **Derivative Pricing Models:** Valuation of linear products (Fixed and Floating Rate Bonds) and non-linear options (Caps, Caplets) using Bachelier (Normal) and Black (Shifted Lognormal) analytical frameworks.
 * **Financial Conventions & Calendars:** Strict algorithmic adherence to market conventions, including day count fractions, schedule generation, and TARGET calendar holiday adjustments for precise cash flow timing.
 
