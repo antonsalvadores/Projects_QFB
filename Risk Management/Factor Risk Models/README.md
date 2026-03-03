@@ -4,7 +4,7 @@
 Develop a multi-factor risk model to decompose and quantify the systematic and idiosyncratic risk of an equity portfolio. By mapping individual asset returns to common risk factors (such as market, sector, or style characteristics like size and value), the model enables portfolio managers to identify hidden concentration risks, optimize asset allocation, and ensure that the portfolio's active risk is strictly aligned with its investment mandate.
 
 ## Mathematical Methodology
-This project implements the mathematical framework of structural risk modeling:
+This project implements the mathematical framework of structural risk modelling:
 * **Factor Exposure Mapping:** Ingesting and processing cross-sectional asset characteristics to define the fundamental exposures of each security within the Euro Stoxx 600 universe.
 * **Factor Returns Estimation:** Executing cross-sectional regressions at each time step to estimate the unobservable returns of pure factor portfolios based on historical price data.
 * **Risk Decomposition & Covariance Construction:** Breaking down total asset variance into systematic (factor-driven) and specific (idiosyncratic) risk components. This includes the computation of the factor covariance matrix and the specific risk diagonal matrix to reconstruct the total asset covariance matrix.
