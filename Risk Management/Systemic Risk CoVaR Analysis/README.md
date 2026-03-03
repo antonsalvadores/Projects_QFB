@@ -20,7 +20,7 @@ This project implements the $\Delta$CoVaR methodology (Adrian & Brunnermeier) al
 * Built a robust econometric pipeline to extract risk metrics that go beyond traditional modern portfolio theory, addressing tail dependencies and market spillovers.
 
 ## Repository Structure
-* `Práctica_2_Antón.R`: Core R script executing the data ingestion, econometric testing, CaViaR modelling, and quantile regressions required to compute dynamic $\Delta$CoVaR.
+* `Práctica_2_Antón.R`: Core R script executing the data ingestion, econometric testing, CaViaR modelling, and quantile regressions required to compute dynamic ΔCoVaR.
 * `Data_P2.xlsx`: Historical pricing dataset containing daily close prices for the selected equities and the Euro Stoxx 600 index from 2015 to 2025.
 * `Final Assignment.pdf`: Comprehensive PDF report detailing the descriptive analysis, mathematical formulations, and interpretation of the systemic risk metrics.
 * `Statement.docx`: Academic requirement document outlining the parameters and theoretical framework of the systemic risk assignment.
