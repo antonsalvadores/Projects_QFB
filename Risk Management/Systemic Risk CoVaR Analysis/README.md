@@ -7,7 +7,7 @@ Quantify and analyze the systemic risk contribution of individual institutions t
 This project implements the $\Delta$CoVaR methodology (Adrian & Brunnermeier) alongside dynamic risk modelling techniques:
 * **Dynamic Value at Risk (VaR):** Estimation of time-varying unconditional VaR at the 1% tail level using Conditional Autoregressive Value at Risk (CaViaR) models to capture volatility clustering and heteroskedasticity.
 * **Quantile Regression:** Application of quantile regression ($\tau = 0.01$) to estimate the conditional distribution of the market index (and portfolio) given that a specific institution is strictly at its VaR.
-* **Systemic Risk Contribution ($\Delta$CoVaR):** Calculation of the marginal systemic risk contribution of each firm by isolating the difference between the CoVaR conditional on the firm being in distress (at its VaR) versus its median state. 
+* **Systemic Risk Contribution (ΔCoVaR):** Calculation of the marginal systemic risk contribution of each firm by isolating the difference between the CoVaR conditional on the firm being in distress (at its VaR) versus its median state. 
 * **Descriptive Econometrics:** Stationarity testing, autocorrelation evaluation, and distribution tail analysis (Q-Q plots, Boxplots) of historical returns.
 
 ## Tech Stack
@@ -15,7 +15,7 @@ This project implements the $\Delta$CoVaR methodology (Adrian & Brunnermeier) al
 * **Core Libraries:** `quantreg` (Quantile Regression), `rugarch`, `PerformanceAnalytics`, `xts`, `fBasics`
 
 ## Key Results
-* Successfully calculated and plotted the dynamic CoVaR and $\Delta$CoVaR for four major European institutions, isolating their contagion effect on the Euro Stoxx 600.
+* Successfully calculated and plotted the dynamic CoVaR and ΔCoVaR for four major European institutions, isolating their contagion effect on the Euro Stoxx 600.
 * Demonstrated empirically how systemic risk contributions vary drastically across sectors and market regimes (Pre-COVID vs. Post-COVID).
 * Built a robust econometric pipeline to extract risk metrics that go beyond traditional modern portfolio theory, addressing tail dependencies and market spillovers.
 
