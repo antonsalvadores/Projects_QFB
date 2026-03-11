@@ -33,7 +33,7 @@ class FixedCouponBond:
         for coupon in self.coupons:
             npv += coupon.npv(discount_curve)
 
-        last_payment_date = self.schedule[-1]['payment_date']
+        last_payment_date = self.schedule[-1]['fixing_date']
         if last_payment_date >= discount_curve.start_date:
             npv += self.notional * discount_curve.interpolate(last_payment_date)
 
