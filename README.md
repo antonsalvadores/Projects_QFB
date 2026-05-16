@@ -42,7 +42,7 @@ The projects demonstrate the application of advanced mathematics, stochastic cal
   * Engineered and evaluated multiple supervised learning algorithms (Decision Trees, k-NN, Neural Networks) to establish foundational predictive modelling frameworks.
 
 ### 4. Econometrics & Time Series Analysis
-* **[Volatility Modelling and GARCH](./Econometrics/Volatility%20Modeling%20and%20GARCH)**
+* **[Volatility Modelling and GARCH](./Econometrics/Volatility%20Modelling%20and%20GARCH)**
   * Modelled conditional volatility and asymmetric market shocks (leverage effects) using GARCH, EGARCH, and TGARCH specifications.
 * **[Time Series and Simulation](./Econometrics/Time%20Series%20and%20Simulation)**
   * Conducted macroeconomic forecasting and cointegration analysis using ARIMA and VECM models. Evaluated statistical properties via Monte Carlo simulations.
